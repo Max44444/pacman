@@ -1,3 +1,4 @@
-To play, type:   python pacman.py
-For help, type:  python pacman.py -h
-See http://inst.eecs.berkeley.edu/~cs188 for more information.
+To play run:
+python pacman.py -n <number of iterations> -x <number of logged steps(equals to number of iterations)> -p PacmanQAgent -l <layout> -q > <filename>
+To display score from file run:
+python ./plots/plot.py <filename>
